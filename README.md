@@ -12,7 +12,7 @@ Usage:
               [--show-policy] [--algo ALGO] [--fo]
 
 	ALPHA : learning rate [Default:0.001]
-	EPSILON : Epsilon value for epsilon-greedy exploration [Default:0.2] #actually 1-epsilon
+	EPSILON : Epsilon value for epsilon-greedy exploration [Default:0.2]
 	GAMMA : Discount [Default:0.9]
 	--render : to render the game for last 10% of the episodes
 	--show-policy : to show policy at the end
