@@ -1,11 +1,6 @@
-# Options
-## Implementation of SMDP Q-Learning Options framework.
-
-The enviroment is similar to the one specified in the original paper.
-
-Requirements : pygame,gym,numpy,argparse
+1)Requirements : pygame,gym,numpy,argparse
 	
-Usage:
+2)usage:
 	
 	python2 run.py run.py [-h] [--alpha ALPHA] [--epsilon EPSILON] [--gamma GAMMA]
               [--episodes EPISODES] [--verbose] [--goal GOAL] [--render]
@@ -22,10 +17,8 @@ Usage:
 	--fo : learn fresh options #not recommended
 
 	
-Example :To run a game with default settings on goal-1 and show learnt policy at the end
+3)example ,To run a game with default settings on goal-1 and show learnt policy at the end
 	
 	python run.py --verbose --show-policy
 		
-Reference : [Between MDPs and semi-MDPs: A framework for temporal abstraction in reinforcement learning](http://www-anw.cs.umass.edu/~barto/courses/cs687/Sutton-Precup-Singh-AIJ99.pdf)
-
-P.S : rewards have been scaled to 10
+4) P.S : rewards have been scaled to 10
